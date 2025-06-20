@@ -576,15 +576,6 @@ html {
     font-weight: 400;
     font-size: 20px;
     color: var(--light-color);
-
-    @media screen and (max-width: 1024px) {
-        font-size: 16px;
-    }
-
-    @media screen and (max-width: 768px) {
-        padding: 30px var(--footer-padding-inline) 40px var(--footer-padding-inline);
-    }
-
 }
 
 .footer__addr {
@@ -642,7 +633,7 @@ html {
     }
 }
 
-.footer {
+/* .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -716,4 +707,4 @@ html {
     @media screen and (max-width: 1024px) {
         column-gap: 27px;
     }
-}
+} */
